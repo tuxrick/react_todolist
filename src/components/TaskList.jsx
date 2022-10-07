@@ -45,7 +45,7 @@ const TaskList = props => {
         setArray(array);
         
         array.map((item) => (
-            list.push({done: false, id: (+new Date()).toString() ,description: item.Tasks})
+            list.push({done: false, id: Math.floor(Math.random() * 90000) + 10000 ,description: item.Tasks})
         ));                    
     };
 
