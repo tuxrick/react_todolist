@@ -28,7 +28,7 @@ const TaskList = props => {
             {list.length ? chk : "No tasks"}
             {list.length ? (
             <p>
-            <button className="button blue" onClick={onClickRemoveItem}>
+            <button className="button list-btn" onClick={onClickRemoveItem}>
                 Delete all done
                 </button>
             </p>
